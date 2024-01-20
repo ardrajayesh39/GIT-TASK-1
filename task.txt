@@ -1,0 +1,66 @@
+GIT TASK 1
+1. CONCEPTS OF GIT EXPLAINING VARIOUS TERMS.
+1. REPOSITORY: A repository serves as a storage location for maintaining the version history of the project and this may exist either locally on the machine or remotely on a server.
+2. CLONNING: It is the process of generating a duplicate of remote repository on our local machine, enabling us to make modifications to the project without impacting the original repository. It is performed using ‘git clone’ command.
+3. COMMITING CHANGES: It is the process of saving changes made to local repository using ‘git commit’ command.
+4. PUSH: Pushing is the process of uploading the local changes to a remote repository, making them accessible to others.
+5. PULL: Pulling is the process of fetching changes and then merging them into your local branch.
+6. FORK: It is the process of creating a personal copy of someone else's project or repository. This copy is independent of the original and allows making changes, contributing to the project without directly affecting the original repository.
+7. MILESTONES: It refers to a specific point or event in the development timeline of a project.
+8. PULL REQUEST: It is a way to propose changes to a repository. It allows others to review and discuss the proposed changes before merging.
+9. FETCH: Fetching is the process of downloading changes from a remote repository without merging them into your working copy.
+
+
+
+
+
+
+2. WRITE BASIC COMMANDS OF GIT.
+1.  git config: This command in Git is used to set or view configuration options for our Git environment.
+2.  git init: This command initializes a new Git repository in the current directory.
+3. git status: Displays the current state of our working directory, showing modified, untracked or staged files.
+4.  git add: It is used to stage changes for the next commit in Git.
+5.  git clone <repository_url>: Clone a repository from a specified URL. This creates a copy of the repository on your local machine.
+6. git commit-m”add html file”: Commits the changes in the staging area to the local repository with a descriptive message.
+7.  git branch <branch_name>: Creates a new branch with the specified name.
+8. git push origin <branch_name>: Pushes our local changes to a remote repository on the specified branch.
+9.   git pull origin <branch_name>: Fetches changes from a remote repository and merges them into the current branch.
+10. git branch feature: This command creates a new branch named "feature" but does not switch to that branch.
+
+
+
+
+
+
+3. CONCEPT OF GITHUB, GITLAB AND GITBUCKET.
+GIT HUB: GitHub is a web platform that makes software development and version control easy by working closely with Git. It's more than just a hosting service; it's a complete system for managing projects. In GitHub, developers use Git to keep track of changes, work on different parts simultaneously using branches and smoothly combine their work.
+GITLAB: GitLab is a web-based platform that helps people work together on software projects. Similar to GitHub, it's like a virtual space where developers can store and manage their code. GitLab uses Git, a system that keeps track of changes in code, making it easier for multiple people to collaborate on the same project. On GitLab, you can create projects, make changes, and propose those changes for others to review before including them in the main project. It's a tool that simplifies teamwork and organization for software development.
+GITBUCKET: BitBucket is a cloud-based service that helps developers store and manage their code, as well as track and control the changes to their code. BitBucket provides a cloud-based Git repository hosting service. Its interface is user-friendly enough so even novice coders can take advantage of Git.
+
+
+
+
+
+
+
+
+
+
+4. INDUSTRIAL PRACTICES OF USING GIT.
+* Useful commit messages.
+* Formalize git conventions for your team.
+* Check out old commits.
+* Backups.
+* Dividing work into repositories.
+* Branching conventions.
+
+5. CLONNING A REPO TO LOCAL.
+To clone a repository to your local machine, use the git clone command followed by the repository's URL. This command not only downloads the current version of the project but also sets up a connection to the remote repository, allowing you to pull the latest changes and contribute to the project.
+
+6. RESOURCES.
+Gitlab
+Geeksforgeeks
+Chatgpt
+
+
+
